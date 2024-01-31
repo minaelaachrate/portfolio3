@@ -1,0 +1,20 @@
+#a{
+    text-align:left ;
+    vertical-align: text-top;
+    background-color: rgb(167, 165, 165);
+}
+h1{
+    color: rgb(43, 43, 139);
+}
+#b{
+    text-align: center;
+    background-color: orangered;
+    color: white;
+}
+thead{
+    width: 300px;
+    height: 90px;
+    background-image: url(b.jpg) ,url(a.jpg)  ;
+
+
+}

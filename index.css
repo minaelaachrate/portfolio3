@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(54, 49, 49) ;
+    
+}
+body{
+    background:linear-gradient(250.59deg, rgba(13, 48, 59, 0.333) 0%,#38769f 28.53%, #114d3e 75.52%) ;
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none; 
+    color: rgb(179, 189, 186); 
+    display: inline-block;
+   
+    padding-left: 30px;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nam{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(247, 230, 230);
+   font-size: medium;
+   font-variant:small-caps;
+   font-style: oblique;
+   font-weight: bold;
+   text-shadow: rgb(19, 82, 82);
+   text-transform:uppercase;
+
+}
+.all{
+    position: fixed;
+    
+    background:linear-gradient(250.59deg, rgba(48, 15, 138, 0.333) 0%,#300bd6b9 28.53%, #cc137991 75.52%) ;
+    width: 100%;
+    z-index:1 ;
+    border: 1px solid rgb(6, 3, 47);
+    align-items: center;
+    padding: 10px 100px;
+}
+ul{
+    
+    display: flex;
+    gap: 20px;
+   
+
+}
+
+
+i{
+   background-color: rgb(134, 15, 114);
+   border-radius: 8px;
+   font-size: 3em;
+   transition: 0.6s ease;   
+}
+i:hover{
+    transform: scale(1.5); 
+}
+
+h1 {
+    padding: 49px;
+    margin: 20px;
+    color: rgb(154, 207, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    padding: 100px 200px;
+}
+.Am{
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 0.9375em  2.1875em;
+    margin-bottom: 40px ;
+    color: rgba(208, 211, 204, 0.829);
+    background-color: rgb(76, 76, 153);
+    border-radius:  50px;
+    position: relative;
+    right: 12px;
+    left: 120px;
+    transition: 0.9s ease;
+   
+    
+}
+
+.Am:hover{
+   transform: scale(1.1); 
+    color: rgba(218, 68, 168, 0.747);
+    background-color: rgb(39, 39, 170);
+    border-radius:30px ;
+   
+    
+    
+}
+span{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;  
+    align-items: center;
+    background: url(img/port1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    color: rgba(25, 5, 65, 0.897);
+    margin-bottom: 30px;
+}
+.cv{
+    background-color: white;
+}
+
+img{
+    
+    width: 250px;
+    height: 200px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(19, 4, 68);
+    width: 21.25em;
+    box-shadow:0 5px 25px rgb(131, 121, 121);
+    display: flex;
+    flex-direction: column;
+    padding: 25px; 
+    margin: 25px;
+    border-radius: 12px;
+    transition: 0.9s ease;
+}
+.card:hover{
+    transform: scale(1.1); 
+}
+.disc{
+    position: relative;
+    margin-top: 15px;
+    padding: 14px;
+    left: 100px;
+   color: blue;
+   font-size:1.2em ;
+   font-weight: 700 ;
+}
+
+    
+
+.img1:hover{
+    opacity: 1;
+}
+.img1{
+    opacity: 0.5;
+    border-radius: 10px;
+}
+.conent{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+}
+.cards{
+    background:linear-gradient(250.59deg, rgba(48, 15, 138, 0.333) 0%,#300bd6b9 28.53%, #cc137991 75.52%) ;
+}
+.car{
+    background-color: rgb(241, 240, 247);
+    width: 21.25em;
+    box-shadow:0 5px 25px rgb(131, 121, 121);
+    display: flex;
+    flex-direction: column;
+    padding: 25px; 
+    margin: 25px;
+    border-radius: 12px;
+    transition: 0.9s ease;
+}
+.car:hover{
+    transform: scale(1.1); 
+}
+
+
+.info{
+    position: relative;
+    margin-top: 30px;
+    text-decoration: none; 
+   color: rgb(161, 59, 170);
+   font-size:1em ;
+   font-weight: 700 ;
+}
+
+
