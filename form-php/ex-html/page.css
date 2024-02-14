@@ -1,0 +1,35 @@
+.parent{
+    background-color: red;
+    padding: 10px;
+    display: grid;
+    flex-direction:column;
+    height: 590px;
+    grid-template-rows:repeat(3,auto) ;
+    grid-template-columns: repeat(3,auto);
+    gap: 10px;
+}
+.item{
+    background-color: white;
+   
+}
+#a , #e{
+    grid-column: 1/-1;
+    
+     
+}
+#b, #c, #d{
+    grid-row: 2/4;
+}
+.pb{
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+article{
+    border: 1px solid rgb(235, 161, 161);
+    background-color: bisque;
+   
+   
+}

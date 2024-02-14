@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forme</title>
+</head>
+<body>
+    
+    <form action="forme.php" method="get">
+    <h1>Formulaire d'inscription :</h1>
+    <fieldset>
+        <legend>Member de l'hotél</legend>
+        <label>Nom et prenom :</label>
+        <input  required type="text" name="name/prenom" ><br> <br>
+        <label>Vous etes member</label><br> <br>
+        <label>Oui</label>
+        <input  required  checked name="member" type="radio">
+        <input   required  name="member"  type="radio">
+        <label>Non</label><br> <br>
+        <label>Email</label>
+        <input  required   type="email" name="email">
+    </fieldset>
+    <label>Fonction</label>
+    <select name="fonction">
+    <option  required  value="fonction">Fonctionnaire</option>
+    </select><br> <br>
+
+<label>Selectionner une reservation :</label><br> <br>
+<input  required  name="dat" type="date">
+<input  required  name="time" type="time"><br> <br>
+<input  required  name="checkbox" type="checkbox">
+<label>j'accepte les condition de la réservation de l'hotel</label><br> <br>
+<input   type="submit" name="login" value="Envoyer"  >
+
+
+</form>   
+</body>
+</html>

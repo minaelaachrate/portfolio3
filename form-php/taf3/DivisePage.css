@@ -1,0 +1,44 @@
+body{
+    background: #ce4c94;
+    padding: 0;
+    margin: 0;
+}
+#header,#footer{
+    background: white;
+    border: solid 3px ;
+    text-align: center;
+    height: 62px;
+    margin: 7px;
+}
+#nav,#aside{
+    display: inline-block;
+    background: white;
+    border: solid 2px ;
+    text-align: center;
+    height: 400px;
+    width: 25.6%;
+    margin: 7px;
+    border: solid 3px;
+}
+#section{
+    display: inline-block;
+    background: white;
+    border: solid 2px ;
+    text-align: center;
+    height: 400px;
+    width: 44%;
+    margin: 2px;
+    border: solid 3px;
+}
+#article{
+    display: flex;
+    background: wheat;
+    border: solid 2px ;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    right: 550px;
+    top: 300px;
+    width: 20%;
+    height: 100px;
+}
